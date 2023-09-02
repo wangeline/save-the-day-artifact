@@ -1,1 +1,134 @@
+  <h1>Save The Day Artifact</h1>
 
+    <!--PASSWORDS-->
+  <div id="passwords" class>
+    <button onclick="show1()" class="buttons">Passwords</button>
+    <ul id="list1" class="hide">
+      <li>Use 2-factor authentication when possible</li>
+      <img
+        src="https://www.rd.com/wp-content/uploads/2022/04/RD-Two-Factor-Authentication-FT.jpg"
+        class="images"
+      />
+      <li>Change your passwords frequently</li>
+      <li>Don't use the same passwords for everything</li>
+      <li>Don't share passwords with others</li>
+      <li>Use numbers, symbols, and capital letters in passwords</li>
+      <li>Don't use common phrases or personal information for passwords</li>
+      <img
+        src="https://phoenixnap.com/kb/wp-content/uploads/2023/03/use-different-types-characters.png"
+        class="images"
+      />
+    </ul>
+  </div>
+  <!--HYPERLINKS-->
+ <div id="links">  
+    <button onclick="show2()" class="buttons">
+      URL/Hyperlinks/Files
+    </button>
+    <ul id="list2" class="hide">
+      <li>
+        Check the website URL/email address for suspicious top-level domains
+      </li>
+      <img src = "https://framework.dreamscape.cloud/design_framework/images/crazy/domain_names/domain_search/domain_search_why.svg"
+           class = "images" />
+      <li>Hover over hyperlinks and ensure their relevancy to the context</li>
+      <li>Don't download unknown/suspicious files</li>
+      <img src = "https://thumbs.dreamstime.com/b/ransomware-computer-under-attack-hackers-ransonware-illustration-vector-92476252.jpg"
+           class = "images"/>
+      <li>Only input personal information in trusted sites</li>
+    </ul>
+  </div>
+  <!--SOCIAL MEDIA-->
+  <div id="social">
+    <button onclick="show3()" class="buttons">Social Media</button>
+    <ul id="list3" class="hide">
+      <li>Ignore any suspicious emails or messages</li>
+      <img src = "https://media.istockphoto.com/id/1164097820/vector/email-data-phishing-with-cyber-thief-hide-behind-laptop-computer-hacking-concept.jpg?s=612x612&w=0&k=20&c=yst0BFSwaO0Il-7vcwM4eseaqublIhAUDiI91LxQ2BU="
+           class = "images" />
+      <li>Don't share personal information publicly online</li>
+      <li>Don't post pictures of others without their consent</li>
+      <li>Don't post your current location</li>
+      <img src = "https://images.template.net/102156/map-location-symbol-clipart-597ci.jpg"
+           class = "images"/>
+      <li>Don't post/engage in criminal activity</li>
+      <li>
+        Turn on login alerts to get notified when someone logs into your account
+      </li>
+      <img src = "https://res.cloudinary.com/dbulfrlrz/images/w_1024,h_341,c_scale/f_auto,q_auto/v1685436909/wp/login-alert-android/login-alert-android-1024x341.jpg?_i=AA"
+           class = "images"/>
+    </ul>
+  </div>
+
+<style>
+  body {
+    background-color: #deb8f5;
+  }
+
+  li {
+    margin-bottom: 6%;
+    line-height: 125%;
+  }
+
+  button {
+    font-weight:bold;
+    font-size: 16px;
+    background-color: #cc8df2;
+    border: 0;
+    padding-left: 37%;
+    padding-right: 37%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    cursor: pointer;
+  }
+
+  .buttons:hover {
+    background-color: #c87df5;
+  }
+
+  .buttons:active {
+    opacity: 60%;
+  }
+
+  #passwords {
+    width: 30%;
+    position: absolute;
+    margin-left: 3%;
+  }
+
+  #links {
+    width: 30%;
+    position: absolute;
+    margin-left: 33%;
+
+    margin-right: 3.4%;
+  }
+
+  #social {
+    width: 30%;
+    position: absolute;
+    right: 0;
+
+    margin-right: 3.4%;
+  }
+
+  .images {
+    height: 180px;
+    margin-bottom: 8%;
+  }
+
+  .hide {
+    display: none;
+  }
+</style>
+
+<script>
+  function show1() {
+    document.getElementById("list1").style.display="block";
+  }
+  function show2() {
+    document.getElementById("list2").style.display="block";
+  }
+  function show3() {
+    document.getElementById("list3").style.display="block";
+  }
+</script>
