@@ -1,4 +1,5 @@
-  <h1>Save The Day Artifact</h1>
+<h1>Save The Day Artifact</h1>
+<h4> Click the buttons to learn more about each category.</h4>
 
     <!--PASSWORDS-->
   <div id="passwords" class>
@@ -55,7 +56,7 @@
         Turn on login alerts to get notified when someone logs into your account
       </li>
       <img src = "https://res.cloudinary.com/dbulfrlrz/images/w_1024,h_341,c_scale/f_auto,q_auto/v1685436909/wp/login-alert-android/login-alert-android-1024x341.jpg?_i=AA"
-           class = "images"/>
+           class = "images" id = "bigpic"/>
     </ul>
   </div>
 
@@ -64,12 +65,24 @@
     background-color: #deb8f5;
   }
 
+  h1 {
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+
+  h4{
+    margin-bottom: 2%;
+  }
+
   li {
     margin-bottom: 6%;
     line-height: 125%;
   }
 
   button {
+    position: sticky;
+    top: 2px;
     font-weight:bold;
     font-size: 16px;
     background-color: #cc8df2;
@@ -112,7 +125,7 @@
   }
 
   .images {
-    height: 180px;
+    width: 250px;
     margin-bottom: 8%;
   }
 
